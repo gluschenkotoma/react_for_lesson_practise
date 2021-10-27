@@ -1,11 +1,15 @@
 // import Painting from "./components/Painting";
 import PaintingList from "./components/PaintingList";
 import paintings from "./js/paintings.json";
-
+import Section from "./components/Section";
 export default function App() {
   return (
     <div>
-      <PaintingList items={paintings} />
+      <Section title="Toп недели">
+        <PaintingList items={paintings} />
+      </Section>
+
+      <Section />
     </div>
   );
 }

@@ -47,3 +47,10 @@ Painting.propTypes = {
 // }
 // export default Painting
 //
+// true && 1 // 1
+// false && 1 //false
+// 0 && 2 // 0
+
+// true||1 //true
+// false || 1 //1
+//
